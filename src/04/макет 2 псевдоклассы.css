@@ -1,0 +1,266 @@
+/*Обнуление стилей, чтобы самостоятельно задавать параметры стилей, а не следовать тем, что по умолчанию*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+    background: #b9c7e7;
+}
+
+.content {
+    width: 841px;
+    margin: 0px auto;
+    background-color: floralwhite;
+    padding: 125px 0px 103px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #273d46;
+    text-align: left;
+}
+
+.header {
+
+    color: #000000;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    /* Text style for "Стилизируй" */
+    letter-spacing: 2.8px;
+    height: 16px;
+    font-size: 14px;
+    margin-bottom: 24px;
+
+}
+
+
+.list10 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 81px;
+    margin-left: 31px;
+}
+
+.list10 :first-child {
+    text-decoration: line-through;
+    list-style-image: url("картинки/check_icon.png");
+}
+
+.list10 :nth-child(2) {
+    font-weight: bold;
+    list-style-image: url("картинки/check_icon.png");
+}
+
+.list10 :nth-child(3) {
+    font-style: italic;
+    list-style-image: url("картинки/check_icon.png");
+}
+
+.list10 :last-child {
+    text-transform: uppercase;
+    list-style-image: url("картинки/check_icon.png");
+}
+
+.list20 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 113px;
+    margin-left: 31px;
+}
+
+
+
+.list20 :first-child {
+    list-style-image: url("картинки/check_icon.png");
+}
+
+.list20 :nth-child(2) {
+    list-style-image: url("картинки/check_icon.png");
+}
+
+.list20 :nth-child(3) {
+    list-style-image: url("картинки/check_icon.png");
+}
+
+.list20 :last-child {
+    list-style-image: url("картинки/check_icon.png");
+}
+
+
+
+.list20 :first-child:hover {
+    text-decoration: line-through;
+}
+
+.list20 :nth-child(2):hover {
+    font-weight: bold;
+    color: #d55a5a;
+    list-style-image: url("картинки/check_icon1.png");
+}
+
+.list20 :nth-child(3):hover {
+    font-style: italic;
+}
+
+.list20 :last-child:hover {
+    text-transform: uppercase;
+}
+
+.buttons {
+    margin-bottom: 125px;
+}
+
+.button1 {
+    border: 1px solid #80b7b3;
+    background: #80b7b3;
+    border-radius: 25px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.8);
+    padding: 14px 27px 14px 30px;
+    margin-left: 25px;
+    margin-right: 97px;
+}
+
+.button2 {
+    border: 1px solid #3a5856;
+    background: #3a5856;
+    border-radius: 25px;
+    box-shadow: 0 6px 40px rgba(83, 121, 118, 0.808);
+    padding: 14px 27px 14px 30px;
+    margin-right: 97px;
+}
+
+.button2:hover {
+    border: 1px solid black;
+    background: gray;
+}
+
+.button3 {
+    border: 1px solid #818181;
+    background: #818181;
+    border-radius: 25px;
+    box-shadow: 0 6px 40px rgba(100, 109, 108, 0.8);
+    padding: 14px 27px 14px 30px;
+}
+
+.button3:active {
+    border: 1px solid whitesmoke;
+    background: rgb(71, 108, 129);
+}
+
+.buttonlink {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.bl2:hover {
+    color: rgb(238, 150, 150);
+}
+
+.forms {
+    margin-left: 2px;
+}
+
+.chubby-input {
+    height: 50px;
+    width: 292px;
+    border: 1px solid #b0b0b0;
+    border-radius: 25px;
+    margin-right: 80px;
+    /* padding-left: 10px; */
+    text-indent: 10px;
+    font-size: 16pt;
+}
+
+.chubby-input:focus {
+    box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+}
